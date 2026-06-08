@@ -1,14 +1,6 @@
 import type { Series } from './series'
 
-export type ChartType =
-  | 'column'
-  | 'bar'
-  | 'line'
-  | 'area'
-  | 'pie'
-  | 'radar'
-  | 'gauge'
-  | 'heatmap'
+export type ChartType = 'column' | 'bar' | 'line' | 'area' | 'pie' | 'radar' | 'gauge' | 'heatmap'
 
 export type ChartSubtype = 'basic'
 
